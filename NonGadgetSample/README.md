@@ -1,5 +1,5 @@
 # Cisco Finesse - Non-Gadget Sample
-The learning sample gadget presents a web page allowing the ability to sign in/out, query for and change agent state, and perform basic call control operations. The example page implements the logic to connect to a BOSH/XMPP server using the [Cisco Ajax XMPP Library](http://developer.cisco.com/site/im-and-presence) to receive events. All responses and events will simply print to the debugger console. The code has been tested with Firefox 3.2.0 ESR with Firebug 2.0.14 and Internet Explorer 11.
+The non-gadget sample presents a web page allowing the ability to sign in/out, query for and change agent state, and perform basic call control operations. The example page implements the logic to connect to a BOSH/XMPP server using the [Cisco Ajax XMPP Library](http://developer.cisco.com/site/im-and-presence) to receive events. All responses and events will simply print to the debugger console. The code has been tested with Firefox 3.2.0 ESR with Firebug 2.0.14 and Internet Explorer 11.
 
 ![Sample Gadget Screenshot](Screenshot.png)
 

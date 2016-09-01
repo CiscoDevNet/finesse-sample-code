@@ -1,5 +1,5 @@
 # Cisco Finesse - Reload From Other Url Sample Gadget
-The learning sample gadget demonstrates loading a different gadget at the click of a button. It is intended to serve as an example of using the ContainerServices method reloadMyGadgetFromUrl in order to reload a gadget from a url different than the one specified in the layout. This sample illustrates how to initialize the gadget and create a button, which when clicked, it will reload a gadget from the url specified in the JavaScript.
+The reload from other Url sample gadget demonstrates loading a different gadget at the click of a button. It is intended to serve as an example of using the ContainerServices method reloadMyGadgetFromUrl in order to reload a gadget from a url different than the one specified in the layout. This sample illustrates how to initialize the gadget and create a button, which when clicked, it will reload a gadget from the url specified in the JavaScript.
 
 ![Sample Gadget Screenshot](Screenshot.png)
 

@@ -1,5 +1,5 @@
 # Cisco Finesse - CUIC Sample Gadget
-The learning sample gadget demonstrates how to create a gadget that displays a permalink in an iframe. The gadget is rendered whenever the tab the gadget is on is first visible. It is intended to serve as an example of placing a CUIC permalink in a Finesse gadget. This sample illustrates how to initialize the gadget, and to set up a handler for determining when the tab that that gadget is on is visible.
+The CUIC sample gadget demonstrates how to create a gadget that displays a permalink in an iframe. The gadget is rendered whenever the tab the gadget is on is first visible. It is intended to serve as an example of placing a CUIC permalink in a Finesse gadget. This sample illustrates how to initialize the gadget, and to set up a handler for determining when the tab that that gadget is on is visible.
 
 ![Sample Gadget Screenshot](Screenshot.png)
 

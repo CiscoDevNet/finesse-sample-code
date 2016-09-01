@@ -1,8 +1,6 @@
 # Cisco Finesse - Phone Book Sample Gadget
 The phone book sample gadget adds a phone book section to the Learning Sample Gadget where the user's phone book is downloaded and displayed. It is intended to serve as an example of accessing the User's phone books collection.
 
-The learning sample gadget demonstrates how to use the User and Dialog objects. There is step-by-step instructions on how to instantiate the User and Dialog objects, get User and Dialog data, change the user's state, place a call, and create a screenpop in an iframe by building a url using a Dialog's call variable.
-
 ![Sample Gadget Screenshot](Screenshot.png)
 
 This sample gadget contains the following files:

@@ -21,10 +21,10 @@ Enjoy,
 
 ## Additional Information
 ##### Finesse REST API
-Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](http://developer.cisco.com/site/finesse/documents/dev-guide).
+Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](http://developer.cisco.com/site/finesse/docs/guides/rest-api-dev-guide).
 
 ##### Finesse JavaScript Library
-Documentation Finesse JavaScript library can be found on [DevNet](http://developer.cisco.com/site/finesse/documents/finesse-javascript-library) and is also located on the Finesse server at the following URL: http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/doc/index.html
+Documentation Finesse JavaScript library can be found on [DevNet](http://developer.cisco.com/site/finesse/docs/guides/javascript-library) and is also located on the Finesse server at the following URL: http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/doc/index.html
 
 - You can access the JavaScript library at the following URL (starting Finesse 10.6(1)): http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/finesse.js.
 

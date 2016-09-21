@@ -38,7 +38,7 @@ If configuring the gadget to run within the Finesse desktop:
 <gadget>/3rdpartygadget/files/TaskManagementGadget.xml?mrdid=5000&mrdname=TestMRD1&maxdialogs=3&interruptAction=ACCEPT&dialogLogoutAction=CLOSE</gadget>
 ```
 
- See the "Third Party Gadgets" chapter in the [Finesse Developer Guide](http://developer.cisco.com/site/finesse/documents/dev-guide) and the "Manage Third-Party Gadgets" chapter in the [Finesse Administration Guide](http://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-user-guide-list.html) for more information about uploading third-party gadgets and adding them to the desktop.
+ See the "Third Party Gadgets" chapter in the [Finesse Developer Guide](http://developer.cisco.com/site/finesse/docs/guides/rest-api-dev-guide) and the "Manage Third-Party Gadgets" chapter in the [Finesse Administration Guide](http://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-user-guide-list.html) for more information about uploading third-party gadgets and adding them to the desktop.
 
 If configuring the gadget to run from an external web server:
 1. Upload the gadget files to the web server and configure it to run this gadget as you would for any other web page.
@@ -72,10 +72,10 @@ If configuring the gadget to run from an external web server:
 Documentation for deploying hte Task Routing Feature can be found in the "Task Routing" section of the [PCCE Features Guide](http://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html).
 
 ##### Finesse REST API
-Documentation for the Finesse Media and Dialog REST APIs can be found in the [Finesse Developer Guide](http://developer.cisco.com/site/finesse/documents/dev-guide).
+Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](http://developer.cisco.com/site/finesse/docs/guides/rest-api-dev-guide).
 
 ##### Finesse JavaScript Library
-Documentation Finesse JavaScript library can be found on [DevNet](http://developer.cisco.com/site/finesse/documents/finesse-javascript-library) and is also located on the Finesse server at the following URL: http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/doc/index.html
+Documentation Finesse JavaScript library can be found on [DevNet](http://developer.cisco.com/site/finesse/docs/guides/javascript-library) and is also located on the Finesse server at the following URL: http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/doc/index.html
 
 - You can access the JavaScript library at the following URL (starting Finesse 10.6(1)): http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/finesse.js.
 

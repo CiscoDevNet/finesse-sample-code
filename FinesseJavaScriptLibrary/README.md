@@ -1,6 +1,6 @@
 # Cisco Finesse JavaScript Library
 ### Documentation
-Documentation Finesse JavaScript library can be found on [DevNet](http://developer.cisco.com/site/finesse/documents/finesse-javascript-library). Starting with Finesse 10.6(1), it is also located on the Finesse server at the following URL: http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/doc/index.html
+Documentation Finesse JavaScript library can be found on [DevNet](http://developer.cisco.com/site/finesse/docs/guides/javascript-library). Starting with Finesse 10.6(1), it is also located on the Finesse server at the following URL: http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/doc/index.html
 
 ## Requirements
 This library depends on and requires the following objects to be present:

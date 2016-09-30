@@ -21,22 +21,13 @@ Starting with Finesse 10.0(1), gadgets must also specify the "setprefs" feature 
 
 Starting with Finesse 10.6(1), jQuery and the Finesse JavaScript library can be accessed from the Finesse server at the following URL: http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/finesse.js.
 
-When the third-party gadgets are loaded on the Finesse sever, the following imports can be used:
+For third-party gadgets, the following imports can be used:
 ```xml
 <!-- jQuery -->
 <script type="text/javascript" src="/desktop/assets/js/jquery.min.js"></script>
 
 <!-- Finesse Library -->
 <script type="text/javascript" src="/desktop/assets/js/finesse.js"></script>
-```
-
-When the third-party gadgets are loaded on a separate web sever, the following imports can be used:
-```xml
-<!-- jQuery -->
-<script type="text/javascript" src="http(s)://<FQDN>:<port>/desktop/assets/js/jquery.min.js"></script>
-
-<!-- Finesse Library -->
-<script type="text/javascript" src="http(s)://<FQDN>:<port>/desktop/assets/js/finesse.js"></script>
 ```
 
 Usage of the finesse.restservices classes simply require ClientServices to be initialized:

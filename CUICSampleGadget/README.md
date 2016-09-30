@@ -33,10 +33,11 @@ Documentation Finesse JavaScript library can be found on [DevNet](http://develop
 
 - You can access the JavaScript library at the following URL (starting Finesse 10.6(1)): http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/finesse.js.
 
- If you have third-party gadgets loaded on Finesse, the third-party gadgets can access the JavaScript library at: /desktop/assets/js/finesse.js.
+ If you have third-party gadgets, the third-party gadgets can access the JavaScript library at: /desktop/assets/js/finesse.js.
+
 - You can access JQuery at the following URL (starting Finesse 10.6(1)): http(s)://&lt;FQDN&gt;:&lt;port&gt;/desktop/assets/js/jquery.min.js.
 
- If you have third-party gadgets loaded on Finesse, the third-party gadgets can access JQuery at: /desktop/assets/js/jquery.min.js.
+ If you have third-party gadgets, the third-party gadgets can access JQuery at: /desktop/assets/js/jquery.min.js.
 
 **For proper functioning of the JavaScript library, you must import both the JavaScript library and JQuery.**
 

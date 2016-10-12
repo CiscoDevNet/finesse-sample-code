@@ -15,7 +15,7 @@ This sample gadget contains the following files:
 		SparkTeamAnnouncements.css
 		SparkTeamAnnouncements.js
 		SparkTeamAnnouncements.xml
-	SparkTeamAnnouncementSampleGadget.pdf.pdf
+	SparkTeamAnnouncementSampleGadget.pdf
 
 Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibilty is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
 

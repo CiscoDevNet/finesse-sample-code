@@ -1,5 +1,5 @@
 # Cisco Finesse - Non-Gadget Python Sample
-The non-gadget Python sample presents a Python script that utilizes the Finesse REST APIs to sign in/out, change the agent state, and do a GET on the user. The example script implements the logic to connect to the Finesse Notification Service using the [SleekXMPP Library](http://sleekxmpp.com/) to receive Finesse notifications. Other [Python XMPP libraries](http://xmpp.org/software/libraries.html) are also available. All responses and events will simply print to the console. This script does NOT integrate these Finesse notifications back to the User object. This code has been tested with Python 3.4.2.
+The non-gadget Python sample presents a Python script that utilizes the Finesse REST APIs to sign in/out, change the agent state, and do a GET on the user. The example script implements the logic to connect to the Finesse Notification Service using the [SleekXMPP Library](http://sleekxmpp.com/) to receive Finesse notifications. Other [Python XMPP libraries](http://xmpp.org/software/libraries.html) are also available. All responses and events will simply print to the console. This script does NOT integrate these Finesse notifications back to the User object. This code has been tested with Finesse 11.5 and Python 3.4.2.
 
 This sample contains the following files:
 

@@ -48,7 +48,6 @@ The Finesse JavaScript library and the sample gadget are made available to Cisco
 
 It is Cisco's intention to ensure JavaScript compatibility across versions as much as possible and Cisco will make every effort to clearly document any differences in the JavaScript across versions in the event that a backwards compatibility impacting change is made.
 
-Cisco Systems, Inc.
-[http://www.cisco.com](http://www.cisco.com)
-
+Cisco Systems, Inc.<br>
+[http://www.cisco.com](http://www.cisco.com)<br>
 [http://developer.cisco.com/site/finesse](http://developer.cisco.com/site/finesse)

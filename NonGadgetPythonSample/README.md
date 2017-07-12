@@ -57,7 +57,6 @@ The Finesse sample code is made available to Cisco partners and customers as a c
 ## Support Notice
 [Support](http://developer.cisco.com/site/devnet/support) for the sample code is provided on a "best effort" basis via DevNet. Like any custom deployment, it is the responsibility of the partner and/or customer to ensure that the customization works correctly and this includes ensuring that the sample code is properly integrated into 3rd party applications.
 
-Cisco Systems, Inc.
-[http://www.cisco.com](http://www.cisco.com)
-
+Cisco Systems, Inc.<br>
+[http://www.cisco.com](http://www.cisco.com)<br>
 [http://developer.cisco.com/site/finesse](http://developer.cisco.com/site/finesse)

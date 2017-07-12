@@ -30,3 +30,7 @@ The Finesse JavaScript library and the sample gadgets are made available to Cisc
 [Support](http://developer.cisco.com/site/devnet/support) for the JavaScript library is provided on a "best effort" basis via DevNet. Like any custom deployment, it is the responsibility of the partner and/or customer to ensure that the customization works correctly and this includes ensuring that the Cisco Finesse JavaScript is properly integrated into 3rd party applications. Cisco reserves the right to make changes to the JavaScript code and corresponding API as part of the normal Cisco Finesse release cycle.
 
 It is Cisco's intention to ensure JavaScript compatibility across versions as much as possible and Cisco will make every effort to clearly document any differences in the JavaScript across versions in the event that a backwards compatibility impacting change is made.
+
+Cisco Systems, Inc.<br>
+[http://www.cisco.com](http://www.cisco.com)<br>
+[http://developer.cisco.com/site/finesse](http://developer.cisco.com/site/finesse)

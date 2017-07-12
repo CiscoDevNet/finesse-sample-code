@@ -62,7 +62,7 @@ Allow from <proxy server>
 
 ## Additional Information
 ##### Finesse REST API
-Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](http://developer.cisco.com/site/finesse/docs/guides/rest-api-dev-guide).
+Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](https://developer.cisco.com/site/finesse/docs/#rest-api-dev-guide).
 
 ## Disclaimer
 This sample code is only a sample and is **NOT guaranteed to be bug free and production quality**.
@@ -79,4 +79,5 @@ The Finesse sample code is made available to Cisco partners and customers as a c
 
 Cisco Systems, Inc.
 [http://www.cisco.com](http://www.cisco.com)
+
 [http://developer.cisco.com/site/finesse](http://developer.cisco.com/site/finesse)

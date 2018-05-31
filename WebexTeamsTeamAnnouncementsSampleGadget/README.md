@@ -1,31 +1,31 @@
-# Cisco Finesse - Spark Team Announcements Sample Gadget
-The Spark team announcements sample gadget demonstrates how to use the messaging capability of [Cisco Spark](https://developer.ciscospark.com) and the power of Finesse gadgets to make team communication easier and effective. This gadget leverages the Cisco Spark API’s to easily post News, Notifications and Announcements to other team members (Agents / Supervisors) right from your Finesse Agent / Supervisor desktop. There is step-by-step instructions on how to add this gadget in your Finesse desktop.
+# Cisco Finesse - Webex Teams Team Announcements Sample Gadget
+The Webex Teams team announcements sample gadget demonstrates how to use the messaging capability of [Cisco Webex Teams](https://developer.webex.com) and the power of Finesse gadgets to make team communication easier and effective. This gadget leverages the Cisco Webex Teams API’s to easily post News, Notifications and Announcements to other team members (Agents / Supervisors) right from your Finesse Agent / Supervisor desktop. There is step-by-step instructions on how to add this gadget in your Finesse desktop.
 
 ![Sample Gadget Screenshot](Screenshot.png)
 
 This sample gadget contains the following files:
 
-	SparkTeamAnnouncements/
+	WebexTeamsTeamAnnouncements/
         bootstrap/
         images/
             Alert-ToggleOff-02.png
             Alert-ToggleOn-02.png
             Alert-ToggleOn.png
         oauth.html
-		SparkTeamAnnouncements.css
-		SparkTeamAnnouncements.js
-		SparkTeamAnnouncements.xml
-	SparkTeamAnnouncementSampleGadget.pdf
+		WebexTeamsTeamAnnouncements.css
+		WebexTeamsTeamAnnouncements.js
+		WebexTeamsTeamAnnouncements.xml
+	WebexTeamsTeamAnnouncementSampleGadget.pdf
 
 Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibilty is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
 
 ## Requirements
 1. Have Finesse system installed and configured.
 2. Verify that you can login an agent into Finesse.
-3. Ensure that you can have a Cisco Spark account and can login. 
+3. Ensure that you can have a Cisco Webex Teams account and can login. 
 
 ## Usage
-1. Read the document SparkTeamAnnouncementSampleGadget.pdf for an overview about this sample gadget as well as step-by-step instructions on how to deploy the gadget.
+1. Read the document WebexTeamsTeamAnnouncementSampleGadget.pdf for an overview about this sample gadget as well as step-by-step instructions on how to deploy the gadget.
 
 ## Additional Information
 ##### Finesse REST API
@@ -44,8 +44,8 @@ Documentation Finesse JavaScript library can be found on [DevNet](https://develo
 
 **For proper functioning of the JavaScript library, you must import both the JavaScript library and JQuery.**
 
-##### Cisco Spark API
-Documentation for the Cisco Spark API can be found at [Spark for Developers](https://developer.ciscospark.com).
+##### Cisco Webex Teams API
+Documentation for the Cisco Webex Teams API can be found at [Cisco Webex for Developers](https://developer.webex.com).
 
 ## Disclaimer
 This gadget is only a sample and is **NOT guaranteed to be bug free and production quality**.
@@ -62,6 +62,6 @@ The Finesse JavaScript library and the sample gadget are made available to Cisco
 
 It is Cisco's intention to ensure JavaScript compatibility across versions as much as possible and Cisco will make every effort to clearly document any differences in the JavaScript across versions in the event that a backwards compatibility impacting change is made.
 
-Cisco Systems, Inc.<br>
-[http://www.cisco.com](http://www.cisco.com)<br>
+Cisco Systems, Inc.
+[http://www.cisco.com](http://www.cisco.com)
 [http://developer.cisco.com/site/finesse](http://developer.cisco.com/site/finesse)

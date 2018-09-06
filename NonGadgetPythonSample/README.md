@@ -43,7 +43,10 @@ or
 
 ## Additional Information
 ##### Finesse REST API
-Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](https://developer.cisco.com/site/finesse/docs/#rest-api-dev-guide).
+Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](https://developer.cisco.com/docs/finesse/#!rest-api-dev-guide).
+
+## Prerequisites
+The Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 
 ## Disclaimer
 This sample code is only a sample and is **NOT guaranteed to be bug free and production quality**.
@@ -52,10 +55,8 @@ The sample code is meant to:
 - Serve as an example of the step by step process of writing a python script using the Finesse REST APIs.
 - Provided as a guide for a developer to see how to use a Python XMPP library to process the Finesse notifications.
 
-The Finesse sample code is made available to Cisco partners and customers as a convenience to help minimize the cost of Cisco Finesse customizations. Cisco does not permit the use of this library in customer deployments that do not include Cisco Finesse.
-
 ## Support Notice
-[Support](http://developer.cisco.com/site/devnet/support) for the sample code is provided on a "best effort" basis via DevNet. Like any custom deployment, it is the responsibility of the partner and/or customer to ensure that the customization works correctly and this includes ensuring that the sample code is properly integrated into 3rd party applications.
+[Support](https://developer.cisco.com/site/support/) for the sample code is provided on a "best effort" basis via DevNet. Like any custom deployment, it is the responsibility of the partner and/or customer to ensure that the customization works correctly and this includes ensuring that the sample code is properly integrated into 3rd party applications.
 
 Cisco Systems, Inc.<br>
 [http://www.cisco.com](http://www.cisco.com)<br>

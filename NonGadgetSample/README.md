@@ -16,7 +16,7 @@ This sample contains the following files:
             sample.js
 	Sample.pdf
 
-Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibilty is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
+Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibility is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
 
 ## Requirements
 1. jQuery: This code requires the jQuery JavaScript library to be imported. The library is used to simplify client-side scripting of the DOM and used to make Ajax requests. The HTML page currently uses jQuery 1.9.1.
@@ -28,7 +28,7 @@ Developers who wish to use the sample page should be aware of the same-origin po
 
 The following is an example of configuring the Apache Web Server as a proxy. Note that this information is provided **AS IS**. Cisco will not provide assistance setting up your Apache web server.
 
-1. Read the document Sample.pdf for an overview about this sample code as well as step-by-step instructions on how to use this smaple.
+1. Read the document Sample.pdf for an overview about this sample code as well as step-by-step instructions on how to use this sample.
 2. Create a reverse proxy URL on your web server to point to the appropriate Cisco Finesse host and port.
 ```
  '/finesse' ==> 'http://host:8082/finesse'
@@ -62,7 +62,10 @@ Allow from <proxy server>
 
 ## Additional Information
 ##### Finesse REST API
-Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](https://developer.cisco.com/site/finesse/docs/#rest-api-dev-guide).
+Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](https://developer.cisco.com/docs/finesse/#!rest-api-dev-guide).
+
+## Prerequisites
+The Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 
 ## Disclaimer
 This sample code is only a sample and is **NOT guaranteed to be bug free and production quality**.
@@ -72,10 +75,8 @@ The sample code is meant to:
 - Provided as a guide for a developer to see how to use the Cisco Ajax XMPP Library and
 jQuery to make Finesse REST API requests and process the Finesse notifications.
 
-The Finesse sample code is made available to Cisco partners and customers as a convenience to help minimize the cost of Cisco Finesse customizations. Cisco does not permit the use of this library in customer deployments that do not include Cisco Finesse.
-
 ## Support Notice
-[Support](http://developer.cisco.com/site/devnet/support) for the sample code is provided on a "best effort" basis via DevNet. Like any custom deployment, it is the responsibility of the partner and/or customer to ensure that the customization works correctly and this includes ensuring that the sample code is properly integrated into 3rd party applications.
+[Support](https://developer.cisco.com/site/support) for the sample code is provided on a "best effort" basis via DevNet. Like any custom deployment, it is the responsibility of the partner and/or customer to ensure that the customization works correctly and this includes ensuring that the sample code is properly integrated into 3rd party applications.
 
 Cisco Systems, Inc.<br>
 [http://www.cisco.com](http://www.cisco.com)<br>

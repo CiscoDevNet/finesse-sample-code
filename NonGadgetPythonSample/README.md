@@ -7,8 +7,9 @@ This sample contains the following files:
     PythonSample.pdf
 
 ## Requirements
+1. The sample gadget and the Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 1. [requests](http://docs.python-requests.org): This script requires the requests library to be installed and imported. This library is used to make the Finesse REST API requests. Please see the Usage section for installation instructions.
-2. [XMPP Library](http://xmpp.org/software/libraries.html): [SleekXMPP](http://sleekxmpp.com) is the XMPP library used to connect to the Notification Service to receive events. The python script depends on the library be installed and imported. Developers can have a choice of using this library or utilizing their own. Please see the Usage section for installation instructions.
+1. [XMPP Library](http://xmpp.org/software/libraries.html): [SleekXMPP](http://sleekxmpp.com) is the XMPP library used to connect to the Notification Service to receive events. The python script depends on the library be installed and imported. Developers can have a choice of using this library or utilizing their own. Please see the Usage section for installation instructions.
 
 ## Usage
 In order to run this Finesse Python script, you will need to install Python, the Requests library, and the SleekXMPP library.
@@ -44,9 +45,6 @@ or
 ## Additional Information
 ##### Finesse REST API
 Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](https://developer.cisco.com/docs/finesse/#!rest-api-dev-guide).
-
-## Prerequisites
-The Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 
 ## Disclaimer
 This sample code is only a sample and is **NOT guaranteed to be bug free and production quality**.

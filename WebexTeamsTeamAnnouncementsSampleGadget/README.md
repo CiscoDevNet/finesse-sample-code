@@ -20,9 +20,10 @@ This sample gadget contains the following files:
 Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibility is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
 
 ## Requirements
+1. The sample gadget and the Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 1. Have Finesse system installed and configured.
-2. Verify that you can login an agent into Finesse.
-3. Ensure that you can have a Cisco Webex Teams account and can login. 
+1. Verify that you can login an agent into Finesse.
+1. Ensure that you can have a Cisco Webex Teams account and can login. 
 
 ## Usage
 1. Read the document WebexTeamsTeamAnnouncementSampleGadget.pdf for an overview about this sample gadget as well as step-by-step instructions on how to deploy the gadget.
@@ -46,9 +47,6 @@ Documentation Finesse JavaScript library can be found on [DevNet](https://develo
 
 ##### Cisco Webex Teams API
 Documentation for the Cisco Webex Teams API can be found at [Cisco Webex for Developers](https://developer.webex.com).
-
-## Prerequisites
-The Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 
 ## Disclaimer
 This gadget is only a sample and is **NOT guaranteed to be bug free and production quality**.

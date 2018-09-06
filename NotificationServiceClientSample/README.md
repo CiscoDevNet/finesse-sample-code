@@ -10,6 +10,7 @@ This sample contains the following files:
     smackx-3.4.1.jar
 
 ## Requirements
+1. The sample gadget and the Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 1. [XMPP Library](http://xmpp.org/software/libraries.html): [Smack](https://www.igniterealtime.org/projects/smack/) is the XMPP library used to connect to the Notification Service to receive events.
 
  * smack-3.4.1.jar - Smack is an Open Source XMPP (Jabber) client library for 
@@ -36,9 +37,6 @@ Note: These commands work for Mac and Linux OS. In case of windows, use ‘;’ 
 ## Additional Information
 ##### Finesse REST API
 Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](https://developer.cisco.com/docs/finesse/#!rest-api-dev-guide).
-
-## Prerequisites
-The Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 
 ## Disclaimer
 This sample code is only a sample and is **NOT guaranteed to be bug free and production quality**.

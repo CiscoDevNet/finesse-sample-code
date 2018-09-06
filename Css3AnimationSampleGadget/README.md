@@ -15,6 +15,9 @@ This sample gadget contains the following files:
 
 Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibility is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
 
+## Requirements
+1. The sample gadget and the Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
+
 ## Usage
 1. SFTP the gadget contents to /3rdpartygadget/root/files
 2. Edit layout xml in cfadmin to load the gadget
@@ -38,9 +41,6 @@ Documentation Finesse JavaScript library can be found on [DevNet](https://develo
  If you have third-party gadgets, the third-party gadgets can access JQuery at: /desktop/assets/js/jquery.min.js.
 
 **For proper functioning of the JavaScript library, you must import both the JavaScript library and JQuery.**
-
-## Prerequisites
-The Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 
 ## Disclaimer
 This gadget is only a sample and is **NOT guaranteed to be bug free and production quality**.

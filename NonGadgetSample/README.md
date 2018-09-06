@@ -19,9 +19,9 @@ This sample contains the following files:
 Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibility is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
 
 ## Requirements
+1. The sample gadget and the Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 1. jQuery: This code requires the jQuery JavaScript library to be imported. The library is used to simplify client-side scripting of the DOM and used to make Ajax requests. The HTML page currently uses jQuery 1.9.1.
-
-2. XMPP Library: [Cisco Ajax XMPP Library](http://developer.cisco.com/site/im-and-presence) (also known as JabberWerx) is the XMPP library used to connect to the Notification Service to receive events. The sample page depends on the library be imported. Developers can have a choice of using this library or utilizing their own.
+1. XMPP Library: [Cisco Ajax XMPP Library](http://developer.cisco.com/site/im-and-presence) (also known as JabberWerx) is the XMPP library used to connect to the Notification Service to receive events. The sample page depends on the library be imported. Developers can have a choice of using this library or utilizing their own.
 
 ## Usage
 Developers who wish to use the sample page should be aware of the same-origin policy. A page loaded in a browser can only make Ajax requests to the server which is hosting the original web content. Since the sample page is loading from a webserver outside of the Cisco Finesse server, the page cannot make direct Ajax request to the Web Service or Notification Service. A common deployment solution is to set up a HTTP proxy on the developer web server which can proxy all BOSH connections and HTTP request to the Cisco Finesse server.
@@ -63,9 +63,6 @@ Allow from <proxy server>
 ## Additional Information
 ##### Finesse REST API
 Documentation for the Finesse REST API can be found in the [Finesse Developer Guide](https://developer.cisco.com/docs/finesse/#!rest-api-dev-guide).
-
-## Prerequisites
-The Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 
 ## Disclaimer
 This sample code is only a sample and is **NOT guaranteed to be bug free and production quality**.

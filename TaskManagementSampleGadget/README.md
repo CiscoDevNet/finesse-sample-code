@@ -1,4 +1,5 @@
 # Cisco Finesse - Task Management Sample Gadget
+
 The task management sample gadget demonstrates the following functionality:
 1. Logging into a Media Routing Domain (MRD)
 2. Changing state in an MRD
@@ -6,6 +7,11 @@ The task management sample gadget demonstrates the following functionality:
 4. Accept and interact with dialogs
 5. Signal the Customer Context gadget to display PODs
 
+Version 12.0.1-v1.0
+![Sample Gadget Screenshot](LoggedoutDisabled.png)
+![Sample Gadget Screenshot](LoggedinReady.png)
+
+Version 11.5.1-v1.0
 ![Sample Gadget Screenshot](Screenshot.png)
 
 This sample gadget contains the following files:
@@ -23,6 +29,8 @@ This sample gadget contains the following files:
 	_readme.txt
 
 Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibility is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
+
+TaskManagementSampleGadget-Finesse-12.0.1-v1.0.zip supports state management with digital channel service. Supported in finesse v12.01 and higher.
 
 ## Requirements
 1. The sample gadget and the Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.

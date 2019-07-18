@@ -1,6 +1,8 @@
 # Cisco Finesse - CUIC Sample Gadget
 The CUIC sample gadget demonstrates how to create a gadget that displays a permalink in an iframe. The gadget is rendered whenever the tab the gadget is on is first visible. It is intended to serve as an example of placing a CUIC permalink in a Finesse gadget. This sample illustrates how to initialize the gadget, and to set up a handler for determining when the tab that that gadget is on is visible.
 
+This sample gadget is applicable to CUIC 11.6(1) and below. For CUIC 11.6(2) and above, use the out of the box CUIC gadget (LiveDataGadget.jsp or HistoricalGadget.jsp) to embed CUIC reports in Finesse. Please see the ***Unified Intelligence Center Gadgets in Cisco Finesse*** section of the [***Cisco Unified Intelligence Center User Guide***](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-user-guide-list.html) for more details.
+
 ![Sample Gadget Screenshot](Screenshot.png)
 
 This sample gadget contains the following files:
@@ -17,6 +19,7 @@ This sample gadget contains the following files:
 Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibility is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
 
 ## Requirements
+1. You must be using CUIC 11.6(1) or below.
 1. The sample gadget and the Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
 1. CUIC installed.
 1. A permalink from a CUIC report. You must manually replace & to `&amp;` in the url.

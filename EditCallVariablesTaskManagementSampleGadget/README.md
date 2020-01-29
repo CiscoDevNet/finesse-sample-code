@@ -1,6 +1,6 @@
-# Cisco Finesse - Edit Call Variables Sample Task Gadget
+# Cisco Finesse - Edit Call Variables Task Management Sample Gadget
 
-The Edit Call Variables sample task gadget demonstrates the following functionality:
+The Edit Call Variables task management sample gadget demonstrates the following functionality:
 1. View the Call Variable Layout for a task as configured by Admin
 2. If the Call Variable is editable, the Agent can edit its value and Save
 3. If the Call Variable value is saved successfully, a message Saved successfully is shown
@@ -12,7 +12,7 @@ Version 12.5.1-v1.0
 
 This sample gadget contains the following files:
 
-	EditCallVariablesSampleTaskGadget/
+	EditCallVariablesTaskManagementSampleGadget/
     	images/
         	check.svg
         	error.svg
@@ -20,15 +20,15 @@ This sample gadget contains the following files:
 			sprite_presence.png
         script-selectors.txt
     	tabpanel.js
-		EditCallVariablesSampleTaskGadget.css
-		EditCallVariablesSampleTaskGadget.js
-		EditCallVariablesSampleTaskGadget.xml
+		EditCallVariablesTaskManagementSampleGadget.css
+		EditCallVariablesTaskManagementSampleGadgett.js
+		EditCallVariablesTaskManagementSampleGadget.xml
         test-Messages.xml
 	_readme.txt
 
 Download the version of the sample gadget that matches the Finesse version. Starting Finesse 11.0(1), sample gadgets will be forward compatible until compatibility is broken. At that time, a new version of the sample gadget will be published with the starting Finesse version number in the filename.
 
-EditCallVariablesSampleTaskGadget-Finesse-12.5-v1.0.zip supports editing call variables as configured by admin. Supported in finesse v12.5 and higher.
+EditCallVariablesTaskManagementSampleGadget-Finesse-12.5-v1.0.zip supports editing call variables as configured by admin. Supported in finesse v12.5 and higher.
 
 ## Requirements
 1. The sample gadget and the Finesse JavaScript library requires a deployment that includes Cisco Finesse. If you do not have a system that includes Cisco Finesse, you can reserve a [DevNet sandbox](https://developer.cisco.com/docs/finesse/#!sandbox) for developing your gadget.
@@ -37,19 +37,19 @@ EditCallVariablesSampleTaskGadget-Finesse-12.5-v1.0.zip supports editing call va
 
 ## Usage
 If configuring the gadget to run within the Finesse desktop:
-1. Place contents from EditCallVariablesSampleTaskGadget folder into the 3rdpartygadget directory in Finesse.
+1. Place contents from EditCallVariablesTaskManagementSampleGadget folder into the 3rdpartygadget directory in Finesse.
 2. Add the gadget to the desktop layout under the desired role (Agent, Supervisor) with the query params mrdid, mrdname, maxdialogs, interruptAction, and dialogLogoutAction.
 
  Here is an example of valid XML for this gadget:
 ```xml
-<gadget>/3rdpartygadget/files/EditCallVariablesSampleTaskGadget.xml?mrdid=5000&mrdname=TestMRD1&maxdialogs=3&interruptAction=ACCEPT&dialogLogoutAction=CLOSE</gadget>
+<gadget>/3rdpartygadget/files/EditCallVariablesTaskManagementSampleGadget.xml?mrdid=5000&mrdname=TestMRD1&maxdialogs=3&interruptAction=ACCEPT&dialogLogoutAction=CLOSE</gadget>
 ```
 
  See the "Third Party Gadgets" chapter in the [Finesse Developer Guide](https://developer.cisco.com/docs/finesse/#!rest-api-dev-guide) and the "Manage Third-Party Gadgets" chapter in the [Finesse Administration Guide](http://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-user-guide-list.html) for more information about uploading third-party gadgets and adding them to the desktop.
 
 If configuring the gadget to run from an external web server:
 1. Upload the gadget files to the web server and configure it to run this gadget as you would for any other web page.
-2. You will need to change the relative paths to local Finesse files to point to your Finesse server in EditCallVariablesSampleTaskGadget.xml:
+2. You will need to change the relative paths to local Finesse files to point to your Finesse server in EditCallVariablesTaskManagementSampleGadget.xml:
 ```xml
 <link rel="stylesheet" href="/desktop/thirdparty/bootstrap/3.2.0/css/bootstrap.css" type="text/css"></link>
 <!-- jQuery -->

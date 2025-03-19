@@ -22,6 +22,7 @@ Download the version of the sample gadget that matches the Finesse version. Star
 
 ## Usage
 1. Read the document EmbeddedWebApp.pdf for an overview about this sample gadget as well as step-by-step instructions on how to build and upload your gadget.
+2. Works only with tabbed gadgets
 
 ## Additional Information
 ##### Finesse REST API

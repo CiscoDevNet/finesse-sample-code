@@ -27,6 +27,7 @@ Download the version of the sample gadget that matches the Finesse version. Star
 ## Usage
 1. Read the document CUIC Finesse gadget.pdf for an overview about this sample gadget as well as instructions on how to modify the permalink and upload your gadget.
 2. Make sure you manually replace & to `&amp;` in the url.
+3. Works only with tabbed gadgets
 
 ## Additional Information
 ##### Finesse REST API
